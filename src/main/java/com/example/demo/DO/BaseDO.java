@@ -33,7 +33,7 @@ public abstract class BaseDO {
 //  @GenericGenerator(
 //      name = "snowflakeGenerator",
 //      strategy = "com.derui.property.config.IdWorkerGenerator")
-//  private Long id;
+//  private Long id;哈哈哈
   @Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)
   private Integer id;
